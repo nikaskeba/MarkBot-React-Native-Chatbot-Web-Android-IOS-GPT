@@ -6,7 +6,8 @@
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
-    "web": "expo start --web"
+    "web": "expo start --web",
+    "build": "expo build:web" // or your specific build command for React Native Web
   },
   "dependencies": {
     "@auth0/auth0-spa-js": "^2.1.3",
